@@ -1,0 +1,275 @@
+{
+  "main": {
+    "id": "3679f00cfac0e217",
+    "type": "split",
+    "children": [
+      {
+        "id": "560add77429a3dff",
+        "type": "split",
+        "children": [
+          {
+            "id": "f275a706b11e631d",
+            "type": "tabs",
+            "dimension": 68.99606299212599,
+            "children": [
+              {
+                "id": "fbe50356bc8e087a",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Файлы/Книги/Curso-Completo-de-Lengua-Rusa.pdf"
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file-text",
+                  "title": "Curso-Completo-de-Lengua-Rusa"
+                }
+              },
+              {
+                "id": "9f1f13064dda5402",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "Файлы/Тесты/A1_test.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "A1_test"
+                }
+              },
+              {
+                "id": "218488047ea74026",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Русский Язык!.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Русский Язык!"
+                }
+              }
+            ],
+            "currentTab": 2
+          },
+          {
+            "id": "8973f588e6e94ab0",
+            "type": "tabs",
+            "dimension": 31.003937007874015,
+            "children": [
+              {
+                "id": "4d38c107598cf40d",
+                "type": "leaf",
+                "state": {
+                  "type": "translator-view",
+                  "state": {
+                    "language_from": "ru",
+                    "language_to": "en",
+                    "translation_service": "bergamot",
+                    "auto_translate": true,
+                    "apply_glossary": false,
+                    "view_mode": 0,
+                    "filter_mode": 0,
+                    "show_attribution": false,
+                    "top_buttons": [
+                      "change-service",
+                      "automatic-translation",
+                      "change-layout",
+                      "apply-filter",
+                      "open-settings"
+                    ],
+                    "left_buttons": [
+                      "paste",
+                      "clear"
+                    ],
+                    "right_buttons": [
+                      "copy"
+                    ]
+                  },
+                  "icon": "bergamot",
+                  "title": "Bergamot"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c9735c83b4c4b8d7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7b4fe6493b8cd189",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35b0d08a91ddfb91",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "928fd2ebb98953ca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f76dd497a6886bcf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 267.5
+  },
+  "right": {
+    "id": "e29c4fc02a7dd693",
+    "type": "split",
+    "children": [
+      {
+        "id": "cecdef65f18e4493",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5626ecf0d44ec7db",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "3a705948a2f566f9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "96dc45504b0a170a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "52f7ccd1995da3ac",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "translate:Open translation view": false
+    }
+  },
+  "active": "218488047ea74026",
+  "lastOpenFiles": [
+    "Файлы/Заметки/2025-06-13.md",
+    "Файлы/Заметки/2025-02-11.md",
+    "Файлы/Заметки/2025-02-04.md",
+    "Файлы/Заметки/2025-06-06.md",
+    "Файлы/Заметки/2025-05-30.md",
+    "Файлы/Книги/Curso-Completo-de-Lengua-Rusa.pdf",
+    "Файлы/Тесты/A1_test.pdf",
+    "Файлы/Заметки/2025-05-23.md",
+    "Русский Язык!.md",
+    "Файлы/Заметки/2025-04-25.md",
+    "Файлы/Изображения/cursiva-manuscrita.png",
+    "Файлы/Изображения/Caligraphy.jpg",
+    "Файлы/Изображения/russian_alphabet.jpg",
+    "Файлы/Изображения/Pronombres-Posesivos.png",
+    "Файлы/Изображения/Plural-de-Sustantivos.png",
+    "Файлы/Изображения/Conjugaciones-Presente-Indicativo.png",
+    "Файлы/Изображения/Genero-de-Sustantivos.png",
+    "Файлы/Заметки/2025-02-25.md",
+    "Файлы/Книги/Ruso sin esfuerzo.pdf",
+    "Файлы/Заметки/2025-02-21.md",
+    "Заметки/Untitled.md",
+    "Файлы/Заметки",
+    "Recording 20250127234502.webm",
+    "Recording 20250127234215.webm",
+    "create a link.md",
+    "Файлы/Книги",
+    "Файлы/Тесты",
+    "Файлы/Изображения",
+    "Файлы"
+  ]
+}

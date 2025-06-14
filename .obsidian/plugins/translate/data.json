@@ -1,0 +1,1631 @@
+{
+  "version": "1.4.5",
+  "display_language": "display",
+  "filter_mode": "2",
+  "translation_service": "bergamot",
+  "security_setting": "none",
+  "switch_button_action": "switch-both",
+  "translation_command_action": "replace",
+  "apply_glossary": false,
+  "local_glossary": false,
+  "glossary_preference": "online",
+  "case_insensitive_glossary": false,
+  "enable_animations": true,
+  "glossary_bidirectional": false,
+  "quicksettings_default": [
+    "change-service",
+    "automatic-translation",
+    "change-layout",
+    "apply-filter",
+    "open-settings"
+  ],
+  "layout_default": 0,
+  "left_quickactions_default": [
+    "paste",
+    "clear"
+  ],
+  "right_quickactions_default": [
+    "copy"
+  ],
+  "hide_attribution_default": false,
+  "default_source_language": "auto",
+  "target_language_preference": "specific",
+  "last_used_target_languages": [],
+  "default_target_language": "en",
+  "filtered_services": [],
+  "hotkeys": [
+    {
+      "id": "view-translate",
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Enter"
+    },
+    {
+      "id": "view-language-switch",
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    },
+    {
+      "id": "view-action-copy",
+      "modifiers": [],
+      "key": ""
+    },
+    {
+      "id": "view-action-clear",
+      "modifiers": [],
+      "key": ""
+    },
+    {
+      "id": "view-action-paste",
+      "modifiers": [],
+      "key": ""
+    },
+    {
+      "id": "view-clear-fields",
+      "modifiers": [],
+      "key": ""
+    }
+  ],
+  "service_settings": {
+    "fasttext": {
+      "default_usage": false,
+      "version": "1.0.0"
+    },
+    "google_translate": {
+      "selected_languages": [
+        "en"
+      ],
+      "api_key": "",
+      "auto_translate": false,
+      "auto_translate_interval": 500,
+      "validated": null,
+      "available_languages": [
+        "af",
+        "ak",
+        "am",
+        "ar",
+        "as",
+        "ay",
+        "az",
+        "be",
+        "bg",
+        "bho",
+        "bm",
+        "bn",
+        "bs",
+        "ca",
+        "ceb",
+        "ckb",
+        "co",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "doi",
+        "dv",
+        "ee",
+        "el",
+        "en",
+        "eo",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "fy",
+        "ga",
+        "gd",
+        "gl",
+        "gn",
+        "gom",
+        "gu",
+        "ha",
+        "haw",
+        "he",
+        "hi",
+        "hmn",
+        "hr",
+        "ht",
+        "hu",
+        "hy",
+        "id",
+        "ig",
+        "ilo",
+        "is",
+        "it",
+        "iw",
+        "ja",
+        "jv",
+        "jw",
+        "ka",
+        "kk",
+        "km",
+        "kn",
+        "ko",
+        "kri",
+        "ku",
+        "ky",
+        "la",
+        "lb",
+        "lg",
+        "ln",
+        "lo",
+        "lt",
+        "lus",
+        "lv",
+        "mai",
+        "mg",
+        "mi",
+        "mk",
+        "ml",
+        "mn",
+        "mni-Mtei",
+        "mr",
+        "ms",
+        "mt",
+        "my",
+        "ne",
+        "nl",
+        "no",
+        "nso",
+        "ny",
+        "om",
+        "or",
+        "pa",
+        "pl",
+        "ps",
+        "pt",
+        "qu",
+        "ro",
+        "ru",
+        "rw",
+        "sa",
+        "sd",
+        "si",
+        "sk",
+        "sl",
+        "sm",
+        "sn",
+        "so",
+        "sq",
+        "sr",
+        "st",
+        "su",
+        "sv",
+        "sw",
+        "ta",
+        "te",
+        "tg",
+        "th",
+        "ti",
+        "tk",
+        "tl",
+        "tr",
+        "ts",
+        "tt",
+        "ug",
+        "uk",
+        "ur",
+        "uz",
+        "vi",
+        "xh",
+        "yi",
+        "yo",
+        "zh",
+        "zh-CN",
+        "zh-TW",
+        "zu"
+      ],
+      "version": "1.1.0"
+    },
+    "deepl": {
+      "selected_languages": [
+        "en"
+      ],
+      "api_key": "",
+      "auto_translate": false,
+      "auto_translate_interval": 500,
+      "validated": null,
+      "available_languages": [
+        "bg",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "es",
+        "et",
+        "fi",
+        "fr",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "lt",
+        "lv",
+        "nb",
+        "nl",
+        "pl",
+        "pt",
+        "ro",
+        "ru",
+        "sk",
+        "sl",
+        "sv",
+        "tr",
+        "uk",
+        "zh"
+      ],
+      "glossary_languages": {
+        "de": [
+          "en",
+          "fr"
+        ],
+        "en": [
+          "de",
+          "es",
+          "fr",
+          "ja",
+          "it",
+          "pl",
+          "nl"
+        ],
+        "es": [
+          "en"
+        ],
+        "fr": [
+          "de",
+          "en"
+        ],
+        "ja": [
+          "en"
+        ],
+        "it": [
+          "en"
+        ],
+        "pl": [
+          "en"
+        ],
+        "nl": [
+          "en"
+        ]
+      },
+      "version": "1.0.3"
+    },
+    "azure_translator": {
+      "selected_languages": [
+        "en"
+      ],
+      "api_key": "",
+      "region": "",
+      "host": null,
+      "auto_translate": false,
+      "auto_translate_interval": 500,
+      "validated": null,
+      "available_languages": [
+        "af",
+        "am",
+        "ar",
+        "as",
+        "az",
+        "ba",
+        "bg",
+        "bho",
+        "bn",
+        "bo",
+        "brx",
+        "bs",
+        "ca",
+        "cs",
+        "cy",
+        "da",
+        "de",
+        "doi",
+        "dsb",
+        "dv",
+        "el",
+        "en",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fil",
+        "fj",
+        "fo",
+        "fr",
+        "fr-CA",
+        "ga",
+        "gl",
+        "gom",
+        "gu",
+        "ha",
+        "he",
+        "hi",
+        "hne",
+        "hr",
+        "hsb",
+        "ht",
+        "hu",
+        "hy",
+        "id",
+        "ig",
+        "ikt",
+        "is",
+        "it",
+        "iu",
+        "iu-Latn",
+        "ja",
+        "ka",
+        "kk",
+        "km",
+        "kmr",
+        "kn",
+        "ko",
+        "ks",
+        "ku",
+        "ky",
+        "ln",
+        "lo",
+        "lt",
+        "lug",
+        "lv",
+        "lzh",
+        "mai",
+        "mg",
+        "mi",
+        "mk",
+        "ml",
+        "mn-Cyrl",
+        "mn-Mong",
+        "mni",
+        "mr",
+        "ms",
+        "mt",
+        "mww",
+        "my",
+        "nb",
+        "ne",
+        "nl",
+        "nso",
+        "nya",
+        "or",
+        "otq",
+        "pa",
+        "pl",
+        "prs",
+        "ps",
+        "pt",
+        "pt-PT",
+        "ro",
+        "ru",
+        "run",
+        "rw",
+        "sd",
+        "si",
+        "sk",
+        "sl",
+        "sm",
+        "sn",
+        "so",
+        "sq",
+        "sr-Cyrl",
+        "sr-Latn",
+        "st",
+        "sv",
+        "sw",
+        "ta",
+        "te",
+        "th",
+        "ti",
+        "tk",
+        "tlh-Latn",
+        "tlh-Piqd",
+        "tn",
+        "to",
+        "tr",
+        "tt",
+        "ty",
+        "ug",
+        "uk",
+        "ur",
+        "uz",
+        "vi",
+        "xh",
+        "yo",
+        "yua",
+        "yue",
+        "zh-Hans",
+        "zh-Hant",
+        "zu"
+      ],
+      "version": "1.1.0"
+    },
+    "yandex_translate": {
+      "selected_languages": [
+        "en"
+      ],
+      "api_key": "",
+      "auto_translate": false,
+      "auto_translate_interval": 500,
+      "validated": null,
+      "available_languages": [
+        "af",
+        "am",
+        "ar",
+        "az",
+        "ba",
+        "be",
+        "bg",
+        "bn",
+        "bs",
+        "ca",
+        "ceb",
+        "cs",
+        "cv",
+        "cy",
+        "da",
+        "de",
+        "el",
+        "emj",
+        "en",
+        "eo",
+        "es",
+        "et",
+        "eu",
+        "fa",
+        "fi",
+        "fr",
+        "ga",
+        "gd",
+        "gl",
+        "gu",
+        "he",
+        "hi",
+        "hr",
+        "ht",
+        "hu",
+        "hy",
+        "id",
+        "is",
+        "it",
+        "ja",
+        "jv",
+        "ka",
+        "kazlat",
+        "kk",
+        "km",
+        "kn",
+        "ko",
+        "ky",
+        "la",
+        "lb",
+        "lo",
+        "lt",
+        "lv",
+        "mg",
+        "mhr",
+        "mi",
+        "mk",
+        "ml",
+        "mn",
+        "mr",
+        "mrj",
+        "ms",
+        "mt",
+        "my",
+        "ne",
+        "nl",
+        "no",
+        "pa",
+        "pap",
+        "pl",
+        "pt",
+        "pt-BR",
+        "ro",
+        "ru",
+        "sah",
+        "si",
+        "sk",
+        "sl",
+        "sq",
+        "sr",
+        "sr-Latn",
+        "su",
+        "sv",
+        "sw",
+        "ta",
+        "te",
+        "tg",
+        "th",
+        "tl",
+        "tr",
+        "tt",
+        "udm",
+        "uk",
+        "ur",
+        "uz",
+        "uzbcyr",
+        "vi",
+        "xh",
+        "yi",
+        "zh",
+        "zu"
+      ],
+      "version": "1.1.0"
+    },
+    "libre_translate": {
+      "selected_languages": [
+        "ru",
+        "es",
+        "en"
+      ],
+      "host": "",
+      "auto_translate": false,
+      "auto_translate_interval": 500,
+      "validated": null,
+      "available_languages": [
+        "ar",
+        "az",
+        "ca",
+        "cs",
+        "da",
+        "de",
+        "el",
+        "en",
+        "eo",
+        "es",
+        "fa",
+        "fi",
+        "fr",
+        "ga",
+        "he",
+        "hi",
+        "hu",
+        "id",
+        "it",
+        "ja",
+        "ko",
+        "nl",
+        "pl",
+        "pt",
+        "ru",
+        "sk",
+        "sv",
+        "th",
+        "tr",
+        "uk",
+        "zh"
+      ],
+      "version": "1.0.2"
+    },
+    "bergamot": {
+      "selected_languages": [
+        "ru"
+      ],
+      "validated": null,
+      "auto_translate": true,
+      "auto_translate_interval": 500,
+      "available_languages": [],
+      "downloadable_models": [
+        {
+          "size": 46992539,
+          "locale": "bg",
+          "files": [
+            {
+              "name": "model.bgen.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.bgen.s2t.bin",
+              "size": 6182512,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.bgen.spm",
+              "size": 920621,
+              "usage": "both"
+            },
+            {
+              "name": "model.enbg.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enbg.s2t.bin",
+              "size": 5607608,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44706399,
+          "locale": "ca",
+          "files": [
+            {
+              "name": "model.caen.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.caen.s2t.bin",
+              "size": 5244644,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.caen.spm",
+              "size": 811443,
+              "usage": "from"
+            },
+            {
+              "name": "model.enca.intgemm.alphas.bin",
+              "size": 17140898,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enca.s2t.bin",
+              "size": 3576936,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enca.spm",
+              "size": 791579,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44269016,
+          "locale": "cs",
+          "files": [
+            {
+              "name": "model.csen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.csen.s2t.bin",
+              "size": 4839160,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.csen.spm",
+              "size": 799978,
+              "usage": "from"
+            },
+            {
+              "name": "model.encs.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.encs.s2t.bin",
+              "size": 3547520,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.encs.spm",
+              "size": 800256,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44227669,
+          "locale": "da",
+          "files": [
+            {
+              "name": "model.daen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.daen.s2t.bin",
+              "size": 4489412,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.daen.spm",
+              "size": 796018,
+              "usage": "from"
+            },
+            {
+              "name": "model.enda.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enda.s2t.bin",
+              "size": 3864788,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enda.spm",
+              "size": 795349,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44057153,
+          "locale": "de",
+          "files": [
+            {
+              "name": "model.deen.intgemm.alphas.bin",
+              "size": 17140837,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.deen.s2t.bin",
+              "size": 5047568,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.deen.spm",
+              "size": 784269,
+              "usage": "both"
+            },
+            {
+              "name": "model.ende.intgemm.alphas.bin",
+              "size": 17140835,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.ende.s2t.bin",
+              "size": 3943644,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 43225814,
+          "locale": "el",
+          "files": [
+            {
+              "name": "model.elen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.elen.s2t.bin",
+              "size": 4295860,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.elen.spm",
+              "size": 894960,
+              "usage": "from"
+            },
+            {
+              "name": "model.enel.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enel.s2t.bin",
+              "size": 2856724,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enel.spm",
+              "size": 896168,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 42315033,
+          "locale": "es",
+          "files": [
+            {
+              "name": "vocab.esen.spm",
+              "size": 825463,
+              "usage": "both"
+            },
+            {
+              "name": "model.esen.intgemm.alphas.bin",
+              "size": 17140755,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.esen.s2t.bin",
+              "size": 3860888,
+              "usage": "from"
+            },
+            {
+              "name": "model.enes.intgemm.alphas.bin",
+              "size": 17140755,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enes.s2t.bin",
+              "size": 3347104,
+              "usage": "to"
+            },
+            {
+              "name": "qualityModel.enes.bin",
+              "size": 68,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 41785726,
+          "locale": "et",
+          "files": [
+            {
+              "name": "vocab.eten.spm",
+              "size": 828426,
+              "usage": "both"
+            },
+            {
+              "name": "model.eten.intgemm.alphas.bin",
+              "size": 17140754,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.eten.s2t.bin",
+              "size": 3974944,
+              "usage": "from"
+            },
+            {
+              "name": "model.enet.intgemm.alphas.bin",
+              "size": 17140754,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enet.s2t.bin",
+              "size": 2700780,
+              "usage": "to"
+            },
+            {
+              "name": "qualityModel.enet.bin",
+              "size": 68,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44330968,
+          "locale": "fi",
+          "files": [
+            {
+              "name": "model.fien.intgemm.alphas.bin",
+              "size": 17140995,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.fien.s2t.bin",
+              "size": 5046280,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.fien.spm",
+              "size": 821437,
+              "usage": "from"
+            },
+            {
+              "name": "model.enfi.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enfi.s2t.bin",
+              "size": 3384772,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enfi.spm",
+              "size": 796433,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 51818572,
+          "locale": "fr",
+          "files": [
+            {
+              "name": "model.fren.intgemm.alphas.bin",
+              "size": 17140961,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.fren.s2t.bin",
+              "size": 8818768,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.fren.spm",
+              "size": 831382,
+              "usage": "both"
+            },
+            {
+              "name": "model.enfr.intgemm.alphas.bin",
+              "size": 17140961,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enfr.s2t.bin",
+              "size": 7886500,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 43055172,
+          "locale": "hr",
+          "files": [
+            {
+              "name": "model.hren.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.hren.s2t.bin",
+              "size": 3860080,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.hren.spm",
+              "size": 796159,
+              "usage": "from"
+            },
+            {
+              "name": "model.enhr.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enhr.s2t.bin",
+              "size": 3319896,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enhr.spm",
+              "size": 796935,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 43394030,
+          "locale": "id",
+          "files": [
+            {
+              "name": "model.iden.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.iden.s2t.bin",
+              "size": 4050348,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.iden.spm",
+              "size": 772941,
+              "usage": "from"
+            },
+            {
+              "name": "model.enid.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enid.s2t.bin",
+              "size": 3515428,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enid.spm",
+              "size": 773211,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 45379864,
+          "locale": "it",
+          "files": [
+            {
+              "name": "model.iten.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.iten.s2t.bin",
+              "size": 4977500,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.iten.spm",
+              "size": 812781,
+              "usage": "from"
+            },
+            {
+              "name": "model.enit.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enit.s2t.bin",
+              "size": 4495004,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enit.spm",
+              "size": 812781,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 45332265,
+          "locale": "nl",
+          "files": [
+            {
+              "name": "model.nlen.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.nlen.s2t.bin",
+              "size": 4940304,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.nlen.spm",
+              "size": 807730,
+              "usage": "from"
+            },
+            {
+              "name": "model.ennl.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.ennl.s2t.bin",
+              "size": 4494892,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.ennl.spm",
+              "size": 807541,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44467108,
+          "locale": "pl",
+          "files": [
+            {
+              "name": "model.plen.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.plen.s2t.bin",
+              "size": 4898024,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.plen.spm",
+              "size": 822587,
+              "usage": "from"
+            },
+            {
+              "name": "model.enpl.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enpl.s2t.bin",
+              "size": 3642112,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enpl.spm",
+              "size": 822587,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 45063626,
+          "locale": "pt",
+          "files": [
+            {
+              "name": "model.pten.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.pten.s2t.bin",
+              "size": 4801740,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.pten.spm",
+              "size": 817234,
+              "usage": "from"
+            },
+            {
+              "name": "model.enpt.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enpt.s2t.bin",
+              "size": 4345620,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enpt.spm",
+              "size": 817234,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44316044,
+          "locale": "ro",
+          "files": [
+            {
+              "name": "model.roen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.roen.s2t.bin",
+              "size": 4691708,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.roen.spm",
+              "size": 800832,
+              "usage": "from"
+            },
+            {
+              "name": "model.enro.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enro.s2t.bin",
+              "size": 3739880,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enro.spm",
+              "size": 801522,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 43795100,
+          "locale": "sl",
+          "files": [
+            {
+              "name": "model.slen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.slen.s2t.bin",
+              "size": 4588660,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.slen.spm",
+              "size": 803078,
+              "usage": "from"
+            },
+            {
+              "name": "model.ensl.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.ensl.s2t.bin",
+              "size": 3318048,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.ensl.spm",
+              "size": 803212,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 44462879,
+          "locale": "sv",
+          "files": [
+            {
+              "name": "model.sven.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.sven.s2t.bin",
+              "size": 4645680,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.sven.spm",
+              "size": 793049,
+              "usage": "from"
+            },
+            {
+              "name": "model.ensv.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.ensv.s2t.bin",
+              "size": 3948180,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.ensv.spm",
+              "size": 793868,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 43815825,
+          "locale": "tr",
+          "files": [
+            {
+              "name": "model.tren.intgemm.alphas.bin",
+              "size": 17140836,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.tren.s2t.bin",
+              "size": 4662492,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.tren.spm",
+              "size": 811353,
+              "usage": "from"
+            },
+            {
+              "name": "model.entr.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.entr.s2t.bin",
+              "size": 3261300,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.entr.spm",
+              "size": 798793,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": false
+        },
+        {
+          "size": 47215849,
+          "locale": "fa",
+          "files": [
+            {
+              "name": "model.faen.intgemm.alphas.bin",
+              "size": 17140837,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.faen.s2t.bin",
+              "size": 6197320,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.faen.spm",
+              "size": 845020,
+              "usage": "from"
+            },
+            {
+              "name": "model.enfa.intgemm.alphas.bin",
+              "size": 17140835,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enfa.s2t.bin",
+              "size": 5097656,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enfa.spm",
+              "size": 794181,
+              "usage": "to"
+            }
+          ],
+          "dev_from": true,
+          "dev_to": true
+        },
+        {
+          "size": 44296157,
+          "locale": "hu",
+          "files": [
+            {
+              "name": "model.huen.intgemm.alphas.bin",
+              "size": 17140899,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.huen.s2t.bin",
+              "size": 5162428,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.huen.spm",
+              "size": 820746,
+              "usage": "from"
+            },
+            {
+              "name": "model.enhu.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enhu.s2t.bin",
+              "size": 3224912,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enhu.spm",
+              "size": 806121,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        },
+        {
+          "size": 43945992,
+          "locale": "lt",
+          "files": [
+            {
+              "name": "model.lten.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.lten.s2t.bin",
+              "size": 4724124,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.lten.spm",
+              "size": 807623,
+              "usage": "from"
+            },
+            {
+              "name": "model.enlt.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enlt.s2t.bin",
+              "size": 3325316,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enlt.spm",
+              "size": 806827,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        },
+        {
+          "size": 43382923,
+          "locale": "lv",
+          "files": [
+            {
+              "name": "model.lven.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.lven.s2t.bin",
+              "size": 4214476,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.lven.spm",
+              "size": 815278,
+              "usage": "from"
+            },
+            {
+              "name": "model.enlv.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enlv.s2t.bin",
+              "size": 3254780,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enlv.spm",
+              "size": 816287,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        },
+        {
+          "size": 69196030,
+          "locale": "ru",
+          "files": [
+            {
+              "name": "model.ruen.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.ruen.s2t.bin",
+              "size": 4483844,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.ruen.spm",
+              "size": 905257,
+              "usage": "from"
+            },
+            {
+              "name": "model.enru.intgemm.alphas.bin",
+              "size": 42992955,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enru.s2t.bin",
+              "size": 2768468,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enru.spm",
+              "size": 904455,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        },
+        {
+          "size": 44096652,
+          "locale": "sk",
+          "files": [
+            {
+              "name": "model.sken.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.sken.s2t.bin",
+              "size": 4913324,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.sken.spm",
+              "size": 808082,
+              "usage": "from"
+            },
+            {
+              "name": "model.ensk.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.ensk.s2t.bin",
+              "size": 3284256,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.ensk.spm",
+              "size": 808888,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        },
+        {
+          "size": 42790412,
+          "locale": "uk",
+          "files": [
+            {
+              "name": "model.uken.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "from"
+            },
+            {
+              "name": "lex.50.50.uken.s2t.bin",
+              "size": 3914120,
+              "usage": "from"
+            },
+            {
+              "name": "vocab.uken.spm",
+              "size": 886410,
+              "usage": "from"
+            },
+            {
+              "name": "model.enuk.intgemm.alphas.bin",
+              "size": 17141051,
+              "usage": "to"
+            },
+            {
+              "name": "lex.50.50.enuk.s2t.bin",
+              "size": 2822044,
+              "usage": "to"
+            },
+            {
+              "name": "vocab.enuk.spm",
+              "size": 885736,
+              "usage": "to"
+            }
+          ],
+          "dev_from": false,
+          "dev_to": true
+        }
+      ],
+      "version": "0.3.4"
+    }
+  }
+}
