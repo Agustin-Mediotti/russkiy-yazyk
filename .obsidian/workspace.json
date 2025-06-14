@@ -27,23 +27,8 @@
                   "icon": "lucide-file",
                   "title": "Русский Язык!"
                 }
-              },
-              {
-                "id": "029c57fe696a5307",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Файлы/Заметки/2025-06-13.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "2025-06-13"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "8973f588e6e94ab0",
@@ -230,8 +215,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "029c57fe696a5307",
+  "active": "9f1f13064dda5402",
   "lastOpenFiles": [
+    "README.md",
+    "Файлы/Заметки/2025-06-13.md",
     "Русский Язык!.md",
     "Файлы/Тесты/A1_test.pdf",
     "Файлы/Тесты",
@@ -245,7 +232,6 @@
     "Файлы/Изображения/Genero-de-Sustantivos.png",
     "Файлы/Изображения/Conjugaciones-Presente-Indicativo.png",
     "Файлы/Изображения/Caligraphy.jpg",
-    "Файлы/Заметки/2025-06-13.md",
     "Файлы/Заметки/2025-06-06.md",
     "Файлы/Заметки/2025-05-30.md",
     "Файлы/Заметки/2025-05-23.md",
